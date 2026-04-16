@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Cormorant_Garamond, Karla } from "next/font/google";
+// import Customcursor from "@/components/Customcursor";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {/* <Customcursor /> */}
       <body suppressHydrationWarning className={`${cormorant.variable} ${karla.variable}`}>
         {children}
       </body>

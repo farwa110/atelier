@@ -53,32 +53,16 @@ body {
   overflow-x: hidden;
 }
 
-/* img {
-  display: block;
-  width: 100%;
-  height: auto;
-} */
-
-/* a {
-  text-decoration: none;
-  color: inherit;
-} */
-
-/* button,
-input {
-  font: inherit;
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
-ul {
-  list-style: none;
-} */
-
-/* .container {
-  width: min(100% - 2rem, var(--container));
-  margin-inline: auto;
-} */
-
-@keyframes ticker {
+@keyframes marquee {
   from {
     transform: translateX(0);
   }
