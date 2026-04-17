@@ -6,7 +6,7 @@ const collections = [
     title: "Essentials",
     subtitle: "Autumn / Winter 2026",
     image: "/collection-1.jpg",
-    href: "#",
+    href: "/essentials",
     position: "object-[center_top]",
   },
   {
