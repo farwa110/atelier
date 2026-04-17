@@ -13,7 +13,7 @@ const collections = [
     title: "Linen Edit",
     subtitle: "Effortless Elegance",
     image: "/collection-2.jpg",
-    href: "#",
+    href: "/linen",
     position: "object-center",
   },
 ];
