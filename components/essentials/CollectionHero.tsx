@@ -56,7 +56,7 @@ export default function CollectionHero({
   descriptionClassName = "text-white/65",
 }: CollectionHeroProps) {
   return (
-    <section className="relative min-h-svh overflow-hidden">
+    <section className="relative min-h-svh overflow-hidden mb-10">
       {/* IMAGE */}
       <Image src={image} alt={alt} fill priority sizes="100vw" className={imageClassName} />
 
