@@ -8,15 +8,16 @@ const cards = [
   {
     title: "Accessories",
     subtitle: "The Details",
-    image: "/collection-4.jpg",
-    href: "#",
+    image: "/collection-3.jpg",
+
+    href: "/accesories",
     position: "object-[center_center]",
   },
   {
     title: "Outerwear",
     subtitle: "Statement Pieces",
-    image: "/collection-3.jpg",
-    href: "#",
+    image: "/collection-4.jpg",
+    href: "/outerwear",
     position: "object-[center_top]",
   },
 ];
