@@ -12,7 +12,7 @@ export default function Footer() {
           </Link>
 
           {/* <span className="mt-3 block h-px w-10 bg-[#c6a96b]" /> */}
-          <span className="mt-3 block h-px w-12 bg-gradient-to-r from-[#c6a96b] to-transparent" />
+          <span className="mt-3 block h-px w-12 bg-linear-to-r from-[#c6a96b] to-transparent" />
 
           <p className="mt-4 max-w-104 text-[14px] leading-7 text-white/40">Considered fashion for the modern wardrobe.</p>
         </div>

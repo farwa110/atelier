@@ -70,7 +70,7 @@ type CollectionHeroProps = {
 
 export default function CollectionHero({ image, alt, eyebrow, title, description, overlayClassName = "bg-gradient-to-t from-black/70 via-black/20 to-black/10", imageClassName = "object-cover object-top", eyebrowClassName = "text-[#c6a96b]", titleClassName = "text-white", descriptionClassName = "text-white/65" }: CollectionHeroProps) {
   return (
-    <section className="relative mb-10 h-[75svh] min-h-[520px] overflow-hidden md:h-screen">
+    <section className="relative mb-10 h-[75svh] min-h-130 overflow-hidden md:h-screen">
       <Image src={image} alt={alt} fill priority sizes="100vw" className={imageClassName} />
 
       <div className={`absolute inset-0 ${overlayClassName}`} />
