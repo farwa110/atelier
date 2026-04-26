@@ -65,7 +65,7 @@ const essentialsProducts: Product[] = [
 export default function EssentialsPage() {
   return (
     <main className="bg-black text-white">
-      <CollectionHero image="/essentials-hero.png" alt="Essentials menswear collection" eyebrow="Autumn / Winter 2026" title="Essentials" description="A refined menswear collection built around tactile knitwear, fluid tailoring, and understated luxury. Designed to feel calm, confident, and effortless from day to evening." />
+      <CollectionHero image="/essentials-images/essentials-hero.png" alt="Essentials menswear collection" eyebrow="Autumn / Winter 2026" title="Essentials" description="A refined menswear collection built around tactile knitwear, fluid tailoring, and understated luxury. Designed to feel calm, confident, and effortless from day to evening." />
       <EssentialsIntro />
       <FeaturedPieces subtitle="Featured Pieces" title="Built for everyday refinement" products={essentialsProducts} />
       <EditorialSplit />
