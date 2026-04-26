@@ -18,9 +18,9 @@ const collections = [
   },
 ];
 
-export default function Collections() {
+export default function Collections({ id }: { id: string }) {
   return (
-    <section className="bg-black px-8 py-8 md:px-12 md:py-10 lg:px-16 xl:px-20">
+    <section id={id} className="bg-black px-8 py-8 md:px-12 md:py-10 lg:px-16 xl:px-20">
       <div className="mb-8">
         <p className="text-[11px] uppercase tracking-[0.34em] text-[#b89652]">Collections</p>
       </div>

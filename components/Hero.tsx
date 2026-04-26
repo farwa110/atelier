@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="relative h-screen min-h-190 overflow-hidden">
       <div className="absolute inset-0">
-        <Image src="/hero-model.png" alt="Model wearing Atelier collection" fill priority className="object-cover object-[58%_center]" />
+        <Image src="/hero-model.png" alt="Model wearing Atelier collection" fill priority className="object-cover object-[52%_18%]" />
       </div>
 
       <div className="absolute inset-0 bg-black/15" />
@@ -23,7 +23,7 @@ export default function Hero() {
               Silhouette
             </h1>
 
-            <Link href="#" className="inline-flex items-center border-b border-[#d2ab67] pb-1 text-[11px] uppercase tracking-[0.28em] text-[#d2ab67] transition hover:opacity-80">
+            <Link href="#Collections" className="inline-flex items-center border-b border-[#d2ab67] pb-1 text-[11px] uppercase tracking-[0.28em] text-[#d2ab67] transition hover:opacity-80">
               Explore Collection
             </Link>
           </div>

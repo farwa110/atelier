@@ -2,17 +2,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion, Variants } from "framer-motion";
-import Footer from "../Footer";
 
 type PerspectiveProps = {
   eyebrow: string;
   quote: string;
   image: string;
   alt: string;
-  imageClassName?: string; // 👈 ADD THIS
+  imageClassName?: string;
 };
 
-// export default function Perspective() {
 export default function Perspective({ eyebrow, quote, image, alt, imageClassName }: PerspectiveProps) {
   return (
     <>
@@ -24,18 +22,11 @@ export default function Perspective({ eyebrow, quote, image, alt, imageClassName
         </motion.div>
       </section>
 
-      {/* <div className="relative aspect-16/8 w-full overflow-hidden">
-     
-        <Image src={image} alt={alt} fill className={`object-cover ${imageClassName ?? "object-center"}`} />
-      </div> */}
       <motion.div initial={{ y: 80, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} viewport={{ once: true }} transition={{ duration: 1.2 }} className="relative aspect-16/8 w-full overflow-hidden">
         <motion.div initial={{ scale: 1.1 }} whileInView={{ scale: 1 }} transition={{ duration: 1.4 }} className="absolute inset-0">
           <Image src={image} alt={alt} fill className={`object-cover ${imageClassName ?? "object-center"}`} />
         </motion.div>
       </motion.div>
-      <section className="mt-12 px-6 md:px-10 lg:px-16 xl:px-20">
-        <Footer />
-      </section>
     </>
   );
 }
